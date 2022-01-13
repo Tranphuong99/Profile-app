@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/inf_email"
+    android:title="Email"
+    android:icon="@drawable/ic_baseline_email"
+    />
+    <item
+        android:title="Address">
+        <menu>
+            <item
+                android:id="@+id/inf_house"
+                android:title="House"
+                android:icon="@drawable/ic_baseline_address"
+                />
+            <item
+                android:id="@+id/inf_zipcode"
+                android:title="Zipcode"
+                android:icon="@drawable/ic_baseline_zipcode"
+                />
+            <item
+                android:id="@+id/inf_x"
+                android:title="X"
+                android:icon="@drawable/ic_baseline_x"
+                />
+            <item
+                android:id="@+id/inf_y"
+                android:title="Y"
+                android:icon="@drawable/letter_y"
+                />
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/inf_phone"
+        android:title="Phone"
+        android:icon="@drawable/ic_baseline_phone"
+        />
+    <item
+android:id="@+id/inf_website"
+        android:title="Website"
+        android:icon="@drawable/ic_baseline_website"
+        />
+    <item
+        android:title="Company"
+        >
+        <menu>
+            <item
+                android:id="@+id/inf_company_name"
+                android:title="Name :"
+                />
+            <item
+                android:id="@+id/inf_company_catchPhrase"
+                android:title="CatchPhrase :"
+                />
+            <item
+                android:id="@+id/inf_company_bs"
+                android:title="Bs :"
+                />
+        </menu>
+
+    </item>
+
+</menu>
